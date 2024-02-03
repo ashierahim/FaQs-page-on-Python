@@ -1,2 +1,2 @@
 # Frequently asked Questions o Python.
-visit : 
+visit : https://ashierahim.github.io/FaQs-page-on-Python/
