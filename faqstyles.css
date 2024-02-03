@@ -1,0 +1,130 @@
+@import url('https:fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+body
+{
+    background:linear-gradient(#67281A,#080101);
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+
+section{
+    min-height: 100vh;
+    width: 80;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+
+    margin: 30px;
+    font-size: 2em;
+	color: #fff;
+
+}
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    color: #fff;
+}
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question h3 {
+    font-size: 1.8rem;
+    
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+}
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    
+}
+.faq.active .answer{
+    max-height: 500px;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .faq {
+        max-width: 325px;
+        color: #fff;
+}
+.header{
+    padding: 30px 81px;
+}
+.title{
+    margin: 55px;
+}
+.logo img{
+display: none;
+}
+.center h1{
+    font-size: 3.2rem;
+}
+.smedia{
+display: none;
+}
+.text-box h1{
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.social{
+    display: flex;
+      position:absolute;
+      top: 297px;
+      left: 95px;
+      right: 125px;
+      cursor: pointer;
+      z-index: 9999;
+      
+      margin: auto;
+}
+.social a{
+    display: contents;
+    position: relative;
+      color: #04f3fc;
+      font-size: 30px;
+    
+}
+.social h3{
+    display: flex;
+    position:absolute;
+    
+    left: 95px;
+    right: 125px;
+    cursor: pointer;
+    z-index: 9999;
+    color: #06fafa;
+    font-size: 12px;
+    align-items: center;
+    margin: auto;
+
+}
+.social a:hover{
+    color: #fff;
+}
+      .faq.active .answer{
+        max-height: 80%;
+    }
+
+}
